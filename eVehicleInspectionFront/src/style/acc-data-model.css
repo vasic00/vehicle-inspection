@@ -1,0 +1,8 @@
+.divider-div{
+    height: 15px;
+}
+#input-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

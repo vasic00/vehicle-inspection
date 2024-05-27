@@ -1,0 +1,21 @@
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.input-component{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#signup-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

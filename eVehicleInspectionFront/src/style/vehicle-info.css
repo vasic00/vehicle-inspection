@@ -1,0 +1,110 @@
+#vehicle-labels{
+    margin-left: 10px;
+}
+.malus-label{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vehicle-info{
+    display: inline-block;
+    padding: 20px;
+}
+#vehicle-name{
+    font-size: calc(2.8vmax + 10px);;
+    font-weight: 800;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    display: flex;
+    align-items: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+#exams-wrapper{
+    margin-left: 150px;
+}
+#info-wrapper{
+    display: flex;
+  flex-direction: row;
+    
+}
+.icon {
+    height: 24px;
+    max-height: 24px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.reason{
+    font-size: 13px;
+    margin-left:5px;
+    display:inline-block;
+    max-width: 35vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.criteria-labels {
+    margin-left: 100px
+}
+.pass {
+    color: green
+}
+.fail {
+    color: red
+}
+#return-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#pdf-btn{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+.long-text{
+    max-width: 200px
+}
+.criteria-name{
+    display: inline-block;
+    text-align: end;
+    width: 150px;
+    margin-right: 8px;
+    align-content: center;
+}
+@media only screen and (max-width: 600px){
+    #content{
+        flex-direction: column;
+    }
+    #exams-wrapper{
+        margin-left: 0 ;
+    }
+    #vehicle-info{
+        padding: 0;
+        display: block;
+    }
+    #vehicle-lables{
+        margin-left: 0;
+    }
+    .criteria-labels {
+        margin-left: 0;
+        margin-bottom: 70px
+    }
+    #info-wrapper{
+       justify-content: center;
+    }
+    #vehicle-name{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+}

@@ -1,0 +1,140 @@
+.company-header{
+   
+    font-size: calc(4vw + 9px);
+    font-weight: 800;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    animation: glow 1s ease-in-out infinite alternate;
+    background-color: #0f0f11;
+
+}
+.passed-status{
+    text-align: left;
+    color:green;
+    font-weight: 800;
+}
+.blue-status{
+    text-align: left;
+    color:blue;
+    font-weight: 600;
+}
+.failed-status{
+    text-align: left;
+    color:red;
+    font-weight: 800;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+#header-wrapper{
+    background-color: #0f0f11;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#company-info{
+
+    background-color: #0f0f11;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#service-logo{
+    display: block;
+    width: 250px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.details{
+    margin-right: 40px;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    color: rgb(215, 224, 228);
+}
+#admin-badge{
+    color: gold;
+    margin-left: 8px;
+}
+#worker-logout-btn{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+}
+#mobile-details{
+    display: none;
+    margin: 0;
+    padding: 10px;
+    color: rgb(104, 117, 122);
+}
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.green-icon{
+    color: green;
+}
+.red-icon{
+    color: red;
+}
+#add-btn{
+    margin-top: 20px;
+}
+.custom-table{
+    margin-top: 50px;
+}
+#history-wrapper{
+    display: inline-block;
+}
+.tab-content{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+    #history-wrapper{
+        display: block;
+    }
+    .tab-content{
+        display: block
+    }
+    .company-header {
+        justify-content: center;
+        padding-left: 0;
+        padding-top: 5vh;
+    }
+    .details{
+        text-align: center;
+    }
+    .details{
+        display: none;
+    }
+    #mobile-details{
+        display: block;
+    }
+    #header-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #service-logo{
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-radius: 50%;
+    }
+    #service-logo{
+        display: none;
+    }
+  }

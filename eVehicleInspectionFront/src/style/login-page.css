@@ -1,0 +1,78 @@
+.page{
+    min-height: 100vh;
+}
+.login-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+#company-login-btn{
+    margin-top: 30px;
+}
+.header{
+    height: 10vh;
+    font-size: calc(4vw + 9px);
+    font-weight: 800;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    animation: glow 1s ease-in-out infinite alternate;
+    padding-top: 12vh;
+    text-align: center;
+
+}
+#about-us{
+    height: 10vh;
+    font-size: calc(1vw + 10px);
+    font-weight: 800;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    color: white;
+    padding-left: 60px;
+    padding-top: 3vh;
+}
+#logo{
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    width: 250px;
+}
+
+.logo-wrapper:hover img{
+    transform: scale(1.3);
+   
+}
+#content{
+    max-width: 85vw;
+}
+.logo-wrapper{
+    position: relative;
+    bottom: -6vh;
+}
+
+.login-form-wrapper {
+    padding: 50px;
+    border-radius: 22px;
+    background-color: white;
+
+}
+.login-btn-wrapper{
+    display: flex;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px)  {
+    .login-form-wrapper {
+        padding: 20px;
+        max-width: 90%;
+    
+    }
+}
+#btns{
+    display: flex;
+    justify-content: space-between;
+}

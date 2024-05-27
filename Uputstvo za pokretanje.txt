@@ -1,0 +1,27 @@
+Uputstvo za pokretanje eVehicleInspection sistema
+
+- Pokretanje frontend aplikacije:
+	1. pozicionirati se u root direktorijum projekta
+	2. pokrenuti terminal (cmd line) 
+	3. izvršiti komandu: npm start (prije toga treba npm install ako ne postoji node_modules)
+	4. nakon pokretanja web servera aplikacija je dostupna na portu 8081
+	
+- Pokretanje backend aplikacije:
+	1. pozicionirati se u /target direktorijum projekta
+	2. pokrenuti terminal (cmd line)
+	3. izvršiti komandu: java -jar VehicleInspectionStation-0.0.1-SNAPSHOT.jar
+	4. nakon pokretanje web servera aplikacija je dostupna na portu 8080
+	ALTERNATIVNO: Učitati projekat u IntelliJ razvojnom okruženju i pokrenuti aplikaciju
+	
+Potrebno je izvršiti sql skriptu pod nazivom "dbdata" za kreiranje šeme i popunjavanje baze podataka. Koristi se MySQL baza podataka.
+
+(OPCIONO) Potrebno je instalirati MinIO Object Store, kreirati bucket "car-service-photos" i ubaciti slike koje će predstavljati
+logo kompanija. U bazi podataka u tabeli "company" čuvaju se nazivi tih slika.
+*** Napomena: aplikacija će funkcionisati i bez MinIO objektnog skladišta, samo neće biti vidljive slike kompanija.
+    Nedostatak slika neće uticati ni na jednu funkcionalnost aplikacije.
+
+Uputstvo za deploy-anje MinIO Object Store-a u Docker-u:
+https://min.io/docs/minio/container/index.html
+(potrebno je /data iz kontejnera mapirati u apsolutnu lokalnu putanju - npr. u folder /minio/data u root folderu backend-a)
+	
+

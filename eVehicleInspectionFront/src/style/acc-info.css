@@ -1,0 +1,104 @@
+#tab-wrapper{
+    margin: 30px;
+    overflow: hidden;
+    padding: 3px;
+}
+.subtitle{
+    margin-top:30px
+}
+#user-avatar{
+    width: 350px;
+    max-width: 80vw;
+    margin-bottom: 20px;
+}
+#first-section{
+    display: flex;
+    flex-direction: row;
+}
+#photo-section{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.large-font{
+    font-size: 18px;
+}
+.info-label{
+    margin: 5px;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+
+}
+.info-labels{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.info-values{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+#msg-label{
+    margin-top: 12px;
+}
+#msg-value{
+    margin-left: 0;
+}
+#logout-btn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#right-section{
+    display: flex;
+    flex-direction: row;
+}
+#table-wrapper{
+    display: inline-block;
+    max-width: 100%;
+}
+#add-btn{
+    margin-top: 20px;
+}
+
+#vehicle-info{
+    margin-top: 40px;
+    }
+.pre-field{
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px){
+    #tab-wrapper{
+        margin: 0
+    }
+    #first-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    #tab-wrapper{
+        margin: 5px;
+    }
+    #photo-section{
+        align-items: center;
+        margin-right: 0;
+    }
+    .large-font{
+        font-size: 18px;
+    }
+    .info-label{
+        margin: 5px;
+        font-family: P
+    }
+    .info-labels{
+        margin-right: 0;
+    }
+    .vehicle-labels{
+        margin-right: 0;
+    }
+    #right-section{
+        justify-content: center;
+    }
+    .acc-btn{
+        width: 80%;
+    }
+}

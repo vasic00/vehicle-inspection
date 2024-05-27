@@ -1,0 +1,53 @@
+#appointment-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#malus{
+    font-size: calc(1vmax + 3px);
+}
+#book-btn{
+    margin-top: 20px;
+    width: 200px;
+
+}
+
+#request-form {
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+    padding: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    border-radius: 4px;
+}
+#select-inputs{
+    margin-top: 30px;
+}
+.checkbox{
+    width: 300px;
+}
+#cost{
+    text-align: center;
+    font-size: calc(1.2vmax + 10px);
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    margin-top: 30px;
+}
+#cost-value{
+    color: #1976d2;
+}
+
+#checkboxes{
+    width: 95%;
+}
+@media only screen and (max-width: 900px) {
+    #request-form{
+        box-shadow: none;
+    }
+#select-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}}

@@ -1,0 +1,10 @@
+.footer{
+    height: 8vh;
+    font-size: calc(1vw + 6px);
+    font-weight: 600;
+    font-family: Poppins,Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.6)
+}
