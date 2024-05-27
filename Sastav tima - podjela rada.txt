@@ -1,7 +1,0 @@
-Frontend:
-	Mihailo Vasić (1179/19)
-	Filip Delević (1150/19)
-Backend:
-	Aleksandar Drljača (1119/19)
-	Nemanja Vujinović (1121/19)
-	Stefan Milaković (1144/20)
